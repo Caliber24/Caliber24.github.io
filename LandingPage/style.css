@@ -1,0 +1,55 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+ 
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+.buffer{
+  height: 10rem;
+}
+
+
+
+h1{
+  font-size : 3rem;
+  color : #e2dbdb
+}
+
+hr{
+  border-color: #F05F44;
+  border-width: 3px;
+  max-width: 65px;
+}
+
+/* .container {
+  height: 100%;
+} */
+
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary{
+  background-color: #F05F44 ;
+  border-color: #eb2b09;
+}
+
+.btn-primary:hover{
+  background-color: rgb(235, 43, 9) ;
+  border-width: 4px;
+  border-color: rgba(51, 51, 152, 0.5);
+}
+
+.btn-xl{
+  padding: 1rem 2rem;
+}
